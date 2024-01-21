@@ -24,3 +24,41 @@ func();
 
 
 */
+
+// data type conversions
+
+
+
+//string to number :
+let b = "b";
+let a = Number (b);
+console.log(typeof b);
+
+let c = Number("15");
+console.log(typeof c);
+
+//with parseInt, parseFloat
+let d = parseInt("12");
+let e = parseFloat("12.46");
+console.log(typeof d);
+console.log(typeof e);
+
+
+
+
+//number to string 
+
+let x = String(46);
+console.log(typeof x);
+
+let y =(47).toString();
+console.log(typeof y);
+
+let result = true.toString();
+console.log(typeof result);
+
+//object to string
+let numbers = [1,2,3,4].toString();
+console.log(typeof numbers);
+
+
