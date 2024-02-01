@@ -75,3 +75,18 @@
 
 
 
+//!style
+//for more w3schools.com
+
+
+const todo = document.querySelectorAll(".list-group-item")[0];
+const todoList= document.querySelector(".list-group"); 
+todo.style.color="#fff";
+todo.style.backgroundColor = "blue";
+todo.stylw.fontWeight="bold";
+todo.style.paddingTop="20px";
+
+todoList.style.marginTop="60px";
+
+
+
