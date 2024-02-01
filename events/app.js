@@ -75,12 +75,30 @@ function runOver(e) {
  // } 
 
 
- const cardTitleKe = document.querySelectorAll(".card-title")[0];
- const input = document.querySelector("#todoName");
+//  const cardTitleKe = document.querySelectorAll(".card-title")[0];
+//  const input = document.querySelector("#todoName");
 
- console.log(input);
- input.addEventListener("keyup",run);
+//  console.log(input);
+//  input.addEventListener("keyup",run);
 
- function run(e){
-    cardTitleKe.textContent = e.target.value;}
-    
+//  function run(e){
+//     cardTitleKe.textContent = e.target.value;}
+
+
+
+//!input events
+
+//focus :makes catchy an element when it selected
+//blur : makes blurry an element when it unselected
+//copy : triggered when copied element
+//paste : triggered when pasted element
+//cut : triggered when cutted element
+//select : triggered when selected element
+
+const todo = document.querySelector("#todoName");
+todo.addEventListener("focus",run);
+todo.addEventListener("blur",run);
+
+function run(e){
+console.log(e.type);
+}
