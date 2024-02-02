@@ -1,4 +1,4 @@
-//!Session storage
+//!Local storage
 
 //where :
 console.log(window);
@@ -6,7 +6,7 @@ console.log(window);
 //To add value
 localStorage.setItem("1453","Fatih");
 localStorage.setItem("2003","ASacer");
-localStorage.setItem(546,6846);//save as string string value
+localStorage.setItem(546,6846);//saves as string string value
 
 //To remove item
 localStorage.removeItem("2003");
