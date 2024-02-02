@@ -34,7 +34,7 @@ function filter(e) {
                 todo.setAttribute("style", "display : none !important");
             }
         })
-    } else {
+    } else {      
         showAlert("warning", "At least one todo is required for filtering!")
     }
 }
