@@ -30,12 +30,14 @@ console.log(a, b, c, d);
 //example 3
 
 const person = {
-    firstName : "Ahmet",
-    lastName : "Acer",
-    salary : 10000,
-    age : 20
+    firstName: "Ahmet",
+    lastName: "Acer",
+    salary: 10000,
+    age: 20
 
 }
 
-let {firstName:Name,lastName:Surname,salary:monthlyIncome,age:lifeTime} =person
-console.log(name,Surname,monthlyIncome,lifeTime);
+let { firstName: Name, lastName: Surname, salary: monthlyIncome, age: lifeTime } = person
+console.log(Name, Surname, monthlyIncome, lifeTime);
+
+
